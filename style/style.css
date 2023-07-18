@@ -1,0 +1,52 @@
+/* adding google font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;0,800;1,700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0;
+}
+.nav-container {
+  display: flex;
+  margin: 40px;
+}
+
+.nav-icon {
+  width: 50%;
+  min-height: 50px;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 45px;
+}
+.g-color {
+  color: #ff42a5;
+}
+.nav-icon img {
+  width: 80px;
+  /* er jnn img regulation tik rake */
+  object-fit: cover;
+  margin: 0 20px 0 200px;
+}
+.nav-menus {
+  width: 50%;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-menus a {
+  text-decoration: none;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  color: #3c354f;
+}
+.nav-x-menus {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 10px;
+}
+.nav-x-menus i {
+    padding: 5px;
+}

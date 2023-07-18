@@ -1,0 +1,15 @@
+@media screen and (max-width: 990px) {
+  .nav-container {
+    flex-direction: column;
+  }
+  .nav-icon {
+    justify-content: center;
+  }
+  .nav-menus {
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav-menus a {
+    margin-top: 20px;
+  }
+}
