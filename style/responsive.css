@@ -1,4 +1,4 @@
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 576px) {
   .nav-container {
     flex-direction: column;
   }
@@ -12,4 +12,26 @@
   .nav-menus a {
     margin-top: 20px;
   }
+  .banner-container {
+  flex-direction: column;
+  align-items: center;
+
+}
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .nav-container {
+    flex-direction: column;
+  }
+  .nav-icon {
+    justify-content: center;
+   
+  }
+  .nav-menus {
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav-menus a {
+    margin-top: 20px;
+  }
+
 }
