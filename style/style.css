@@ -181,3 +181,42 @@
   margin-top: -120px;
   margin-left: -50px;
 }
+
+/* footer-icon-container */
+.icons-container {
+  background-color: #fff9fc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60vh;
+}
+.icon-1 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+  padding-bottom: 50px;
+}
+.icon-2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 50px;
+}
+.x:hover {
+  border: 3px solid #ff42a5;
+  border-radius: 50px;
+}
+
+.x {
+  display: flex;
+  align-items: center;
+  padding: 10px 25px;
+  text-align: center;
+  border-radius: 50px;
+  margin-right: 20px;
+  border: 2px solid white;
+  background-color: white;
+}
+.x img {
+  width: 20%;
+  padding-right: 5px;
+}
