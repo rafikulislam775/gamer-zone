@@ -123,11 +123,36 @@
 
 /* cards-container styling */
 .cards-container {
-  border: 2px solid red;
   display: grid;
+  column-gap: 5px;
   grid-template-columns: repeat(4, 1fr);
+  padding: 50px;
+  justify-content: space-evenly;
 }
-.cards img {
-  width: 200px;
-  height: 300px;
+
+.cards {
+  text-align: center;
+  width: 100%;
+}
+/* only for this one to do the img responsive */
+.card-img {
+  width: 70%;
+}
+/* for border hover effect */
+.card-img:hover {
+  border: 3px solid #ff42a5;
+  border-radius: 10px;
+}
+
+.container-img {
+  position: relative;
+  text-align: center;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #f948b2;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
 }
