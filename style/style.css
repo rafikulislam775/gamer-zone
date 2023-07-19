@@ -220,3 +220,41 @@
   width: 20%;
   padding-right: 5px;
 }
+/* footer container */
+.footer-container {
+  background: #0b0223;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+}
+.footer-title {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+}
+.footer-items a {
+  text-decoration: none;
+  color: white;
+}
+.footer-items {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 50px;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+  gap: 50px;
+}
+.terms,
+.copy-right {
+  color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 50px;
+}
